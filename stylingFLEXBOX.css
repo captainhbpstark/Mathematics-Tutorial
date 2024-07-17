@@ -1,0 +1,172 @@
+body{
+    font: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+
+#container {
+    width: 1050px;
+  /*  border: 1px solid grey; */
+    margin: 0 auto;
+}
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: #0A1C30;
+    text-decoration: none;
+        
+}
+.img{
+    padding: 10px 0px;
+}
+
+#header{
+    height: 100px;
+    padding: 10px 0;
+}
+#brand{
+    float: left;
+}
+#searchBox{
+    float: right;
+    background: linear-gradient(#C9C3D0, #BECBE5);
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0 20px;
+    margin-top: 20px
+}
+.text{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: black;
+    background: white url(images/search.png) right center no-repeat;
+    border: 1px solid #2a06de;
+}
+.submit{
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: black;
+    font-size: 15px;
+}
+
+.clear{
+    clear: both;
+}
+
+ul{
+    list-style: none;
+}
+
+#menu{
+    height: 70px;
+    background: linear-gradient(#617E9F, #2F4C6A);
+    padding: 7px 0;
+}
+
+#menu ul li{
+    float: left;
+    padding: 0 40px;
+    height: 30px;
+    border-right: 1px solid white;
+    
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+#menu ul li a{
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 17px;
+    color: white;
+    line-height: 40px;
+    transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+#introduction{
+    background: linear-gradient(#567393, #395675);
+    padding: 30px;
+    margin: 17px 0;
+    
+}
+
+#introduction h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #FFFFFF;
+    
+}
+#introduction p{
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: justify-all;
+}
+
+.sidebar{
+    width: 450px;
+    height: 450px;
+    background: linear-gradient(#567393, #395675);
+    border: 1px solid #C1CDE3;
+    border-radius: 20px;
+    padding: 10px 30px
+}
+
+
+#leftsidebar{
+    float: left;
+}
+#leftsidebar ul li{
+    padding-bottom: 6px; 
+    list-style-image: url(images/logooo.png);
+    padding-left: 10px;
+}
+#leftsidebar ul{
+    padding-top: 8px;
+}
+
+#rightsidebar{
+    float: right;
+}
+#rightsidebar ul li{
+    padding-bottom: 6px;
+    list-style-image: url(images/logooo.png);
+    padding-left: 10px;
+}
+
+#rightsidebar ul{
+    padding-top: 8px;
+}
+.sidebar h3{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: azure
+}
+
+.sidebar ul li a:hover{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+    transition: font-size 0.3s ease;
+}
+
+.footer{
+    height: 70px;
+    background: linear-gradient(#C1CDE3, #C1CDE3);
+    padding: 10px 35px;
+}
+
